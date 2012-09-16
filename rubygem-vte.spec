@@ -49,6 +49,7 @@ Documents, RDoc & RI documentation for %{name}.
 #%dir %{ruby_gemdir}/gems/%{rbname}-%{version}
 #%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
+%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/*.rb 
 #%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/pkg-config
 #%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/pkg-config/*.rb
 #%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/test
