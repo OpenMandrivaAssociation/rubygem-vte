@@ -1,7 +1,7 @@
 # Generated from pkg-config-1.1.4.gem by gem2rpm5 -*- rpm-spec -*-          
 %define	rbname	vte
 
-Summary:	Ruby binding of ATK-1.0.x.
+Summary:	Ruby binding of VTE.
 Name:		rubygem-%{rbname}
 
 Version:	1.1.5
@@ -18,7 +18,7 @@ BuildRequires:  ruby-devel
 BuildRequires:  pkgconfig(vte)
 
 %description
-Ruby binding of ATK-1.0.x.
+Ruby binding of VTE.
 
 %package	doc
 Summary:	Documentation for %{name}
@@ -29,12 +29,12 @@ BuildArch:	noarch
 %description	doc
 Documents, RDoc & RI documentation for %{name}.
 
-%package    devel                                                                                                                                                                                              
-Summary:    Development files for %{name}
-Group:      Development/Ruby
+#%package    devel                                                                                                                                                                                              
+#Summary:    Development files for %{name}
+#Group:      Development/Ruby
 
-%description	devel
-Development files for %{name}.
+#%description	devel
+#Development files for %{name}.
 
 %prep
 %setup -q
@@ -59,8 +59,8 @@ Development files for %{name}.
 %files doc
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
 
-%files devel
-%{ruby_sitearchdir}/*.h
+#%files devel
+#%{ruby_sitearchdir}/*.h
 
 %changelog
 
