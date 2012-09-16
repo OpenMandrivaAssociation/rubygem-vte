@@ -15,6 +15,7 @@ BuildRequires:  rubygem(glib2)
 BuildRequires:  rubygem-glib2-devel
 BuildRequires:  ruby-devel
 BuildRequires:  pkgconfig(atk)
+BuildRequires:  pkgconfig(vte)
 
 %description
 Ruby binding of ATK-1.0.x.
