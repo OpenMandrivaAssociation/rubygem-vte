@@ -13,8 +13,8 @@ Source0:	http://rubygems.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:  rubygem(glib2)
 BuildRequires:  rubygem-glib2-devel
+BuildRequires:  rubygem-gtk2-devel
 BuildRequires:  ruby-devel
-BuildRequires:  pkgconfig(atk)
 BuildRequires:  pkgconfig(vte)
 
 %description
