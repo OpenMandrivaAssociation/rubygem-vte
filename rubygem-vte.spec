@@ -16,6 +16,7 @@ BuildRequires:  rubygem-glib2-devel
 BuildRequires:  rubygem-gtk2-devel
 BuildRequires:  ruby-devel
 BuildRequires:  pkgconfig(vte)
+Obsoletes:      ruby-vte
 
 %description
 Ruby binding of VTE.
