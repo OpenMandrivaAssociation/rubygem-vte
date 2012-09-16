@@ -29,13 +29,6 @@ BuildArch:	noarch
 %description	doc
 Documents, RDoc & RI documentation for %{name}.
 
-#%package    devel                                                                                                                                                                                              
-#Summary:    Development files for %{name}
-#Group:      Development/Ruby
-
-#%description	devel
-#Development files for %{name}.
-
 %prep
 %setup -q
 
@@ -46,22 +39,13 @@ Documents, RDoc & RI documentation for %{name}.
 %gem_install
 
 %files
-#%dir %{ruby_gemdir}/gems/%{rbname}-%{version}
-#%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/*.rb
 %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/%{rbname}/*.rb 
-#%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/lib/pkg-config
-#%{ruby_gemdir}/gems/%{rbname}-%{version}/lib/pkg-config/*.rb
-#%dir %{ruby_gemdir}/gems/%{rbname}-%{version}/test
-#%{ruby_gemdir}/gems/%{rbname}-%{version}/test/*.rb
 %{ruby_gemdir}/specifications/%{rbname}-%{version}.gemspec
 %{ruby_sitearchdir}/%{rbname}.so
 
 %files doc
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
-
-#%files devel
-#%{ruby_sitearchdir}/*.h
 
 %changelog
 
