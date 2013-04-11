@@ -1,7 +1,7 @@
 # Generated from pkg-config-1.1.4.gem by gem2rpm5 -*- rpm-spec -*-          
 %define	rbname	vte
 
-Summary:	Ruby binding of VTE.
+Summary:	Ruby binding of VTE
 Name:		rubygem-%{rbname}
 
 Version:	1.1.5
