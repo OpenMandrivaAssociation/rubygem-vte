@@ -5,7 +5,7 @@ Summary:	Ruby binding of VTE.
 Name:		rubygem-%{rbname}
 
 Version:	1.1.5
-Release:	1
+Release:	2
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://ruby-gnome2.sourceforge.jp/
